@@ -21,24 +21,24 @@ namespace DicBase
         public PII()
         {
             string filePath = Directory.GetCurrentDirectory() + "\\" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
-            
-            using (StreamReader readerFile = File.OpenText(filePath))
-            {
-                while(readerFile.Peek()!=-1)
-                {
-                    string word = readerFile.ReadLine();
-                    Console.WriteLine(word);
-                }
-            }
 
+            DateTime dt = DateTime.Now;
+            DateTime endDt = dt.AddSeconds(1);
+            using (StreamWriter streamWriter = new StreamWriter(filePath))
+            {                
+                while(DateTime.Now<endDt)
+                {
+                    streamWriter.WriteLine(DateTime.Now.ToString("yyyyMMddHHmmssffff") + Guid.NewGuid());
+                }
+            } 
         }
 
-        public void Add(int id, string name)
+        public void Add(string id, string name)
         {
             base.InnerHashtable.Add(id, name);
         }
 
-        public string Item(int id)
+        public string Item(string id)
         {
             return base.InnerHashtable[id].ToString();
         }

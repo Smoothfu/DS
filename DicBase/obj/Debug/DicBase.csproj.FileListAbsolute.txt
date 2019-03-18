@@ -8,7 +8,6 @@ D:\C\DS\DicBase\obj\Debug\DicBase.csprojResolveAssemblyReference.cache
 D:\DS\DicBase\bin\Debug\DicBase.dll.config
 D:\DS\DicBase\bin\Debug\DicBase.dll
 D:\DS\DicBase\bin\Debug\DicBase.pdb
-D:\DS\DicBase\obj\Debug\DicBase.csprojResolveAssemblyReference.cache
 D:\DS\DicBase\obj\Debug\DicBase.csproj.CoreCompileInputs.cache
 D:\DS\DicBase\obj\Debug\DicBase.dll
 D:\DS\DicBase\obj\Debug\DicBase.pdb
