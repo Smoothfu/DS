@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+
 
 namespace DicBase
 {
@@ -18,7 +20,17 @@ namespace DicBase
     {
         public PII()
         {
+            string filePath = Directory.GetCurrentDirectory() + "\\" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
 
+            DateTime dt = DateTime.Now;
+            DateTime dtEnd = dt.AddSeconds(1);
+            using (StreamWriter streamWriter = new StreamWriter(filePath, true))
+            {
+                while (DateTime.Now < dtEnd)
+                {
+                    streamWriter.WriteLine(DateTime.Now.ToString("yyyyMMddHHmmssfff") + "\n");
+                }
+            }
         }
 
         public void Add(int id, string name)
@@ -35,5 +47,7 @@ namespace DicBase
         {
             base.InnerHashtable.Remove(id);
         }
+
+        
     }
 }
