@@ -13,12 +13,7 @@ namespace DS
     {
         static void Main(string[] args)
         {
-            PII pObj = new PII();
-            for(int i=0;i<10;i++)
-            {
-                pObj.Add(i, "Fred" + i);
-            }
-            
+            PII pObj = new PII();                    
         }
     }
 

@@ -22,15 +22,16 @@ namespace DicBase
         {
             string filePath = Directory.GetCurrentDirectory() + "\\" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
 
-            DateTime dt = DateTime.Now;
-            DateTime dtEnd = dt.AddSeconds(1);
-            using (StreamWriter streamWriter = new StreamWriter(filePath, true))
+            
+            using (StreamReader readerFile = File.OpenText(filePath))
             {
-                while (DateTime.Now < dtEnd)
+                while(readerFile.Peek()!=-1)
                 {
-                    streamWriter.WriteLine(DateTime.Now.ToString("yyyyMMddHHmmssfff") + "\n");
+                    string word = readerFile.ReadLine();
+                    Console.WriteLine(word);
                 }
             }
+
         }
 
         public void Add(int id, string name)

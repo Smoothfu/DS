@@ -4,3 +4,4 @@ D:\C\DS\DicBase\obj\Debug\DicBase.pdb
 D:\C\DS\DicBase\bin\Debug\DicBase.dll.config
 D:\C\DS\DicBase\bin\Debug\DicBase.dll
 D:\C\DS\DicBase\obj\Debug\DicBase.dll
+D:\C\DS\DicBase\obj\Debug\DicBase.csprojResolveAssemblyReference.cache
