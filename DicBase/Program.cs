@@ -21,7 +21,6 @@ namespace DicBase
         public PII()
         {
             string filePath = Directory.GetCurrentDirectory() + "\\" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
-
             
             using (StreamReader readerFile = File.OpenText(filePath))
             {
