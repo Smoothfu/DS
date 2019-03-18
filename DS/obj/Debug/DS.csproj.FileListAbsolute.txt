@@ -1,0 +1,10 @@
+D:\C\DS\DS\bin\Debug\DS.exe.config
+D:\C\DS\DS\bin\Debug\DS.exe
+D:\C\DS\DS\bin\Debug\DS.pdb
+D:\C\DS\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+D:\C\DS\DS\obj\Debug\DS.exe
+D:\C\DS\DS\obj\Debug\DS.pdb
+D:\C\DS\DS\bin\Debug\DicBase.dll
+D:\C\DS\DS\bin\Debug\DicBase.pdb
+D:\C\DS\DS\bin\Debug\DicBase.dll.config
+D:\C\DS\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache

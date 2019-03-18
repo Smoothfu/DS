@@ -1,0 +1,2 @@
+D:\C\DS\DictionaryBase\obj\Debug\DictionaryBase.csprojResolveAssemblyReference.cache
+D:\C\DS\DictionaryBase\obj\Debug\DictionaryBase.csproj.CoreCompileInputs.cache
